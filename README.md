@@ -12,8 +12,7 @@ One of the key advantages of machine learning for traffic prediction is its abil
    Selecting the most relevant features that have a significant impact on traffic flow prediction. This may include factors such as historical traffic patterns, weather conditions, road infrastructure, and special events.
 5. Model Selection  
    Choose appropriate machine learning algorithms for traffic prediction. Commonly used models include:  
-
-  * Time Series Models: Models such as Autoregressive Integrated Moving Average (ARIMA) and Seasonal Autoregressive Integrated Moving Average (SARIMA) are effective for time series forecasting tasks.  
+ 
   * Regression Models: Linear regression, polynomial regression, and other regression techniques can be used to predict traffic flow based on historical data and relevant features.  
   * Neural Networks: Deep learning models such as Long Short-Term Memory (LSTM) networks and Convolutional Neural Networks (CNNs) can capture complex patterns in traffic data and provide accurate predictions.  
   
@@ -22,10 +21,11 @@ One of the key advantages of machine learning for traffic prediction is its abil
 6. Model Training   
    Train the selected machine learning models using the preprocessed data. Split the data into training and validation sets to evaluate model performance and tune hyperparameters if necessary.
 
-8. Model Evaluation
+7. Model Evaluation
    Evaluate the trained models using appropriate evaluation metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), or other domain-specific metrics. Compare the performance of different models to select the best-performing one.
 
-10. Deployment and Monitoring
+8. Deployment and Monitoring
     Deploy the trained model in a production environment to make real-time traffic predictions. Continuously monitor model performance and update the model periodically with new data to ensure its accuracy and reliability.
 
-12. Feedback Loop: Incorporate feedback from the deployed model to improve future predictions. Analyze prediction errors and adjust the model or data preprocessing pipeline as necessary to enhance performance over time.
+9. Feedback Loop
+    Incorporate feedback from the deployed model to improve future predictions. Analyze prediction errors and adjust the model or data preprocessing pipeline as necessary to enhance performance over time.
