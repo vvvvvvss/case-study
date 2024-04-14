@@ -21,11 +21,11 @@ One of the key advantages of machine learning for traffic prediction is its abil
 6. Model Training   
    Train the selected machine learning models using the preprocessed data. Split the data into training and validation sets to evaluate model performance and tune hyperparameters if necessary.
 
-7. Model Evaluation
+7. Model Evaluation  
    Evaluate the trained models using appropriate evaluation metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), or other domain-specific metrics. Compare the performance of different models to select the best-performing one.
 
-8. Deployment and Monitoring
+8. Deployment and Monitoring  
     Deploy the trained model in a production environment to make real-time traffic predictions. Continuously monitor model performance and update the model periodically with new data to ensure its accuracy and reliability.
 
-9. Feedback Loop
+9. Feedback Loop  
     Incorporate feedback from the deployed model to improve future predictions. Analyze prediction errors and adjust the model or data preprocessing pipeline as necessary to enhance performance over time.
